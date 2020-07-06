@@ -1,0 +1,5 @@
+$mainBlue: #2f5572;
+body{
+    border: 1px solid $mainBlue;
+  
+}
