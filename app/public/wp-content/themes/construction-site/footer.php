@@ -1,4 +1,4 @@
-this is footer area
+    <p>this is footer</p>
 <?php wp_footer();  ?>
 </body>
 </html>
