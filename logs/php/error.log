@@ -1,0 +1,61 @@
+[05-Jul-2020 14:44:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_posts() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\index.php:3
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\index.php on line 3
+[05-Jul-2020 14:44:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_posts() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\index.php:3
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\index.php on line 3
+[05-Jul-2020 14:44:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_posts() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\index.php:3
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\index.php on line 3
+[05-Jul-2020 15:06:52 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 4
+[05-Jul-2020 15:07:25 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 4
+[05-Jul-2020 15:08:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_actions() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php:7
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(508): include()
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php(13): require_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\index.php(17): require('C:\\Users\\ashima...')
+#5 {main}
+  thrown in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 7
+[05-Jul-2020 15:09:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function we_head() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\header.php:7
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template.php(723): require_once()
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template.php(672): load_template('C:\\Users\\ashima...', true)
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\index.php(2): get_header()
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\index.php(17): require('C:\\Users\\ashima...')
+#7 {main in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\header.php on line 7
+[05-Jul-2020 15:09:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function we_head() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\header.php:7
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template.php(723): require_once()
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template.php(672): load_template('C:\\Users\\ashima...', true)
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\index.php(2): get_header()
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\index.php(17): require('C:\\Users\\ashima...')
+#7 {main in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\header.php on line 7
+[06-Jul-2020 04:18:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enueue_script() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php:4
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php(287): csScripts('')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\script-loader.php(2294): do_action('wp_enqueue_scri...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php(478): WP_Hook->do_action( in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 4
