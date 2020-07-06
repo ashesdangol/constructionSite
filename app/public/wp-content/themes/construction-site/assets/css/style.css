@@ -1,5 +1,5 @@
-$mainBlue: #2f5572;
-body{
-    border: 1px solid $mainBlue;
-  
-}
+@import 'normalize.css'; 
+@import 'base/_variables';
+@import 'base/_mixins';
+@import 'base/_global'; 
+

@@ -1,0 +1,20 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* Font-Family: 'Raleway', Sans-Serif;*/
+    font-family: 'Open Sans', Sans-Serif;
+    color: #333333;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    color: $mainOrange;
+}
