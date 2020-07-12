@@ -12,6 +12,7 @@
         height: 100%;
         object-fit: cover;
         object-position: center;
+        z-index: 2;
     }
     &__text-content{
         position: absolute;
@@ -23,8 +24,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 4;
         .wrapper{
-            background:rgba($mainBlue, 0.3);
             max-width: 678px;
         }
     }

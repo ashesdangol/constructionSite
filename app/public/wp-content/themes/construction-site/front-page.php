@@ -1,6 +1,6 @@
 <?php get_header();  ?>
 
-<div class="large-hero">
+<div class="large-hero mask">
     <video class="large-hero__video" playsinline autoplay="" loop="" muted="" poster="<?php echo get_theme_file_uri('/assets/img/cons.jpg'); ?>">
         <source src="<?php echo get_theme_file_uri('/assets/videos/ws.mp4'); ?>" type="video/mp4">
     </video>
@@ -12,6 +12,11 @@
             <p><a href="#" class="btn btn--empty btn--effect btn--large">About Us</a></p>
         </div>
     </div>
+</div>
+
+
+<div class="wrapper">
+    
 </div>
 
 <?php
