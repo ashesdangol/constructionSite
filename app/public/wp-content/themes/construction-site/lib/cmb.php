@@ -40,7 +40,7 @@ add_action( 'cmb2_admin_init', 'cmb2_project_metaboxes' );
 function cmb2_project_metaboxes() {
 
     $project_cmb_group_object = new_cmb2_box( array(
-		'id'            => 'test_group_metabox',
+		'id'            => 'project_cmb_group_object_id',
 		'title'         => __( 'Insert more info about this project', 'cmb2' ),
 		'object_types'  => array( 'project', ), // Post type
 		'context'       => 'normal',
@@ -49,6 +49,7 @@ function cmb2_project_metaboxes() {
         
     ) );
 
+    // Project Gallery
     $project_cmb_group_object->add_field( array(
         'name' => 'Current Project\'s Gallery',
         'desc' => 'Upload Images for a slider',
@@ -78,6 +79,7 @@ function cmb2_project_metaboxes() {
         )
     ) );
      
+    //Project Location 
     $project_cmb_group_object->add_group_field($group_project_location_date, array(
         'name'    => 'Location',
         'desc'    => 'Location(s) of a site',
@@ -87,12 +89,13 @@ function cmb2_project_metaboxes() {
 
     ) );
 
-
+    // Project Start Date
     $project_cmb_group_object->add_group_field($group_project_location_date,  array(
         'name'    => 'Start Date',
         'id'      => 'project_start_date',
         'type' => 'text_date_timestamp',
     ) );
+     // Project End Date
     $project_cmb_group_object->add_group_field($group_project_location_date,  array(
         'name'    => 'End Date',
         'id'      => 'project_end_date',
@@ -119,6 +122,7 @@ function cmb2_project_metaboxes() {
         )
     ) );
 
+    // SELECT DEPARTMENT
     $project_cmb_group_object->add_group_field($group_select_description_department, array(
         'name'       => __( 'Department', 'cmb2' ),
         'desc'       => __( 'Select Department', 'cmb2' ),
@@ -128,7 +132,7 @@ function cmb2_project_metaboxes() {
         'options'     => dynamic_list_departments()
     ) );
 
-
+    // TASK DESCRIPTIONS
     $project_cmb_group_object->add_group_field($group_select_description_department, array(
         'name'       => __( 'Department\'s Task', 'cmb2' ),
         'desc'       => __( 'List or describe the responsibility of Department', 'cmb2' ),
