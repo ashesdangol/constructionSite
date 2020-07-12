@@ -59,3 +59,382 @@ Stack trace:
 #4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
 #5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
 #6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php(478): WP_Hook->do_action( in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 4
+[12-Jul-2020 12:42:43 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 26
+[12-Jul-2020 12:42:43 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 26
+[12-Jul-2020 12:44:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 27
+[12-Jul-2020 12:44:19 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 27
+[12-Jul-2020 12:48:17 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 3
+[12-Jul-2020 12:48:17 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 3
+[12-Jul-2020 12:48:52 UTC] PHP Warning:  require_once(./lib/enqueues.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 3
+[12-Jul-2020 12:48:52 UTC] PHP Stack trace:
+[12-Jul-2020 12:48:52 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 12:48:52 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 12:48:52 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 12:48:52 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 12:48:52 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 12:48:52 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 12:48:52 UTC] PHP Fatal error:  require_once(): Failed opening required './lib/enqueues.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 3
+[12-Jul-2020 12:48:52 UTC] PHP Stack trace:
+[12-Jul-2020 12:48:52 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 12:48:52 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 12:48:52 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 12:48:52 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 12:48:52 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 12:48:52 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 12:48:53 UTC] PHP Warning:  require_once(./lib/enqueues.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 3
+[12-Jul-2020 12:48:53 UTC] PHP Stack trace:
+[12-Jul-2020 12:48:53 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 12:48:53 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 12:48:53 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 12:48:53 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 12:48:53 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 12:48:53 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 12:48:53 UTC] PHP Fatal error:  require_once(): Failed opening required './lib/enqueues.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 3
+[12-Jul-2020 12:48:53 UTC] PHP Stack trace:
+[12-Jul-2020 12:48:53 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 12:48:53 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 12:48:53 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 12:48:53 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 12:48:53 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 12:48:53 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 12:49:54 UTC] PHP Warning:  require_once(/lib/enqueues.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 3
+[12-Jul-2020 12:49:54 UTC] PHP Stack trace:
+[12-Jul-2020 12:49:54 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 12:49:54 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 12:49:54 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 12:49:54 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 12:49:54 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 12:49:54 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 12:49:54 UTC] PHP Fatal error:  require_once(): Failed opening required '/lib/enqueues.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 3
+[12-Jul-2020 12:49:54 UTC] PHP Stack trace:
+[12-Jul-2020 12:49:54 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 12:49:54 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 12:49:54 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 12:49:54 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 12:49:54 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 12:49:54 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 13:01:58 UTC] PHP Fatal error:  Cannot redeclare csScripts() (previously declared in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php:2) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\enqueues.php on line 3
+[12-Jul-2020 13:01:58 UTC] PHP Stack trace:
+[12-Jul-2020 13:01:58 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 13:01:58 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 13:01:58 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 13:01:58 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 13:01:58 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 13:01:58 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 13:05:20 UTC] PHP Warning:  require(C:\Users\ashima\Local Sites\constructionsite\app\public/wp-content/themes/construction-site/lib/enqueues.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 18
+[12-Jul-2020 13:05:20 UTC] PHP Stack trace:
+[12-Jul-2020 13:05:20 UTC] PHP Warning:  require(C:\Users\ashima\Local Sites\constructionsite\app\public/wp-content/themes/construction-site/lib/enqueues.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 18
+[12-Jul-2020 13:05:20 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 13:05:20 UTC] PHP Stack trace:
+[12-Jul-2020 13:05:20 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 13:05:20 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 13:05:20 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 13:05:20 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 13:05:20 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 13:05:20 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 13:05:20 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 13:05:20 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 13:05:20 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 13:05:20 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 13:05:20 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\ashima\Local Sites\constructionsite\app\public/wp-content/themes/construction-site/lib/enqueues.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 18
+[12-Jul-2020 13:05:20 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 13:05:20 UTC] PHP Stack trace:
+[12-Jul-2020 13:05:20 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\ashima\Local Sites\constructionsite\app\public/wp-content/themes/construction-site/lib/enqueues.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\functions.php on line 18
+[12-Jul-2020 13:05:20 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 13:05:20 UTC] PHP Stack trace:
+[12-Jul-2020 13:05:20 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 13:05:20 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 13:05:20 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 13:05:20 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 13:05:20 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 13:05:20 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:13
+[12-Jul-2020 13:05:20 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 13:05:20 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 13:05:20 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 13:05:20 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 13:05:20 UTC] PHP   6. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:508
+[12-Jul-2020 13:13:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:15:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:15:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:15:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:15:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:15:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:16:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:16:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php(13): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:16:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:16:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:17:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%project%', '([^/]+)', 'project=')
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(5): register_post_type('project', Array)
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C: in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\rewrite.php on line 173
+[12-Jul-2020 13:18:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_post_type(), 0 passed in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php on line 4 and at least 1 expected in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php:1415
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(4): register_post_type()
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\index.php(10): require_once('C:\\Users\\ashima... in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php on line 1415
+[12-Jul-2020 13:19:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_post_type(), 0 passed in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php on line 4 and at least 1 expected in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php:1415
+Stack trace:
+#0 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\mu-plugins\customPosts.php(4): register_post_type()
+#1 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php(302): include_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php(77): require_once('C:\\Users\\ashima...')
+#3 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php(37): require_once('C:\\Users\\ashima...')
+#4 C:\Users\ashima\Local Sites\constructionsite\app\public\wp-login.php(12): require('C:\\Users\\ashima...')
+#5 {main}
+  thrown in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\post.php on line 1415
+[12-Jul-2020 13:58:55 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 14
+[12-Jul-2020 13:58:58 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 14
+[12-Jul-2020 13:58:58 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 14
+[12-Jul-2020 14:06:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 25
+[12-Jul-2020 14:06:21 UTC] PHP Stack trace:
+[12-Jul-2020 14:06:21 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin-ajax.php:0
+[12-Jul-2020 14:06:21 UTC] PHP   2. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin-ajax.php:22
+[12-Jul-2020 14:06:21 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 14:06:21 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 14:06:21 UTC] PHP   5. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:540
+[12-Jul-2020 14:06:21 UTC] PHP   6. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:06:21 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:06:21 UTC] PHP   8. CMB2_Bootstrap_270->include_cmb() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:06:21 UTC] PHP   9. cmb2_bootstrap() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\plugins\cmb2\init.php:165
+[12-Jul-2020 14:06:21 UTC] PHP  10. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\plugins\cmb2\bootstrap.php:26
+[12-Jul-2020 14:06:21 UTC] PHP  11. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:06:21 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:06:21 UTC] PHP  13. cmb2_sample_metaboxes() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:06:21 UTC] PHP  14. testValue() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:97
+[12-Jul-2020 14:06:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 25
+[12-Jul-2020 14:06:24 UTC] PHP Stack trace:
+[12-Jul-2020 14:06:24 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\post.php:0
+[12-Jul-2020 14:06:24 UTC] PHP   2. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\post.php:12
+[12-Jul-2020 14:06:24 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php:34
+[12-Jul-2020 14:06:24 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 14:06:24 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 14:06:24 UTC] PHP   6. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:540
+[12-Jul-2020 14:06:24 UTC] PHP   7. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:06:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:06:24 UTC] PHP   9. CMB2_Bootstrap_270->include_cmb() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:06:24 UTC] PHP  10. cmb2_bootstrap() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\plugins\cmb2\init.php:165
+[12-Jul-2020 14:06:24 UTC] PHP  11. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\plugins\cmb2\bootstrap.php:26
+[12-Jul-2020 14:06:24 UTC] PHP  12. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:06:24 UTC] PHP  13. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:06:24 UTC] PHP  14. cmb2_sample_metaboxes() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:06:24 UTC] PHP  15. testValue() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:97
+[12-Jul-2020 14:06:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:25) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\functions.php on line 6221
+[12-Jul-2020 14:06:24 UTC] PHP Stack trace:
+[12-Jul-2020 14:06:24 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\post.php:0
+[12-Jul-2020 14:06:24 UTC] PHP   2. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\post.php:12
+[12-Jul-2020 14:06:24 UTC] PHP   3. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php:170
+[12-Jul-2020 14:06:24 UTC] PHP   4. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:06:24 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:06:24 UTC] PHP   6. send_frame_options_header() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:285
+[12-Jul-2020 14:06:24 UTC] PHP   7. header() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\functions.php:6221
+[12-Jul-2020 14:06:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:25) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\includes\misc.php on line 1282
+[12-Jul-2020 14:06:24 UTC] PHP Stack trace:
+[12-Jul-2020 14:06:24 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\post.php:0
+[12-Jul-2020 14:06:24 UTC] PHP   2. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\post.php:12
+[12-Jul-2020 14:06:24 UTC] PHP   3. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin.php:170
+[12-Jul-2020 14:06:24 UTC] PHP   4. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:06:24 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:06:24 UTC] PHP   6. wp_admin_headers() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:06:24 UTC] PHP   7. header() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\includes\misc.php:1282
+[12-Jul-2020 14:06:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:25) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin-header.php on line 9
+[12-Jul-2020 14:06:24 UTC] PHP Stack trace:
+[12-Jul-2020 14:06:24 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\post.php:0
+[12-Jul-2020 14:06:24 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\post.php:206
+[12-Jul-2020 14:06:24 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\edit-form-advanced.php:419
+[12-Jul-2020 14:06:24 UTC] PHP   4. header() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin-header.php:9
+[12-Jul-2020 14:06:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 25
+[12-Jul-2020 14:06:24 UTC] PHP Stack trace:
+[12-Jul-2020 14:06:24 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin-ajax.php:0
+[12-Jul-2020 14:06:24 UTC] PHP   2. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin-ajax.php:22
+[12-Jul-2020 14:06:24 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 14:06:24 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 14:06:24 UTC] PHP   5. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:540
+[12-Jul-2020 14:06:24 UTC] PHP   6. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:06:24 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:06:24 UTC] PHP   8. CMB2_Bootstrap_270->include_cmb() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:06:24 UTC] PHP   9. cmb2_bootstrap() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\plugins\cmb2\init.php:165
+[12-Jul-2020 14:06:24 UTC] PHP  10. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\plugins\cmb2\bootstrap.php:26
+[12-Jul-2020 14:06:24 UTC] PHP  11. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:06:24 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:06:24 UTC] PHP  13. cmb2_sample_metaboxes() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:06:24 UTC] PHP  14. testValue() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:97
+[12-Jul-2020 14:07:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 25
+[12-Jul-2020 14:07:25 UTC] PHP Stack trace:
+[12-Jul-2020 14:07:25 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin-ajax.php:0
+[12-Jul-2020 14:07:25 UTC] PHP   2. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin-ajax.php:22
+[12-Jul-2020 14:07:25 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 14:07:25 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 14:07:25 UTC] PHP   5. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:540
+[12-Jul-2020 14:07:25 UTC] PHP   6. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:07:25 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:07:25 UTC] PHP   8. CMB2_Bootstrap_270->include_cmb() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:07:25 UTC] PHP   9. cmb2_bootstrap() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\plugins\cmb2\init.php:165
+[12-Jul-2020 14:07:25 UTC] PHP  10. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\plugins\cmb2\bootstrap.php:26
+[12-Jul-2020 14:07:25 UTC] PHP  11. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:07:25 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:07:25 UTC] PHP  13. cmb2_sample_metaboxes() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:07:25 UTC] PHP  14. testValue() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:97
+[12-Jul-2020 14:08:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 25
+[12-Jul-2020 14:08:25 UTC] PHP Stack trace:
+[12-Jul-2020 14:08:25 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin-ajax.php:0
+[12-Jul-2020 14:08:25 UTC] PHP   2. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-admin\admin-ajax.php:22
+[12-Jul-2020 14:08:25 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-load.php:37
+[12-Jul-2020 14:08:25 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-config.php:77
+[12-Jul-2020 14:08:25 UTC] PHP   5. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-settings.php:540
+[12-Jul-2020 14:08:25 UTC] PHP   6. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:08:25 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:08:25 UTC] PHP   8. CMB2_Bootstrap_270->include_cmb() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:08:25 UTC] PHP   9. cmb2_bootstrap() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\plugins\cmb2\init.php:165
+[12-Jul-2020 14:08:25 UTC] PHP  10. do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\plugins\cmb2\bootstrap.php:26
+[12-Jul-2020 14:08:25 UTC] PHP  11. WP_Hook->do_action() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\plugin.php:478
+[12-Jul-2020 14:08:25 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:311
+[12-Jul-2020 14:08:25 UTC] PHP  13. cmb2_sample_metaboxes() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\class-wp-hook.php:287
+[12-Jul-2020 14:08:25 UTC] PHP  14. testValue() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:97
+[12-Jul-2020 14:08:32 UTC] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 24
+[12-Jul-2020 14:08:32 UTC] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 24
+[12-Jul-2020 14:12:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 45
+[12-Jul-2020 14:12:01 UTC] PHP Stack trace:
+[12-Jul-2020 14:12:01 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 14:12:01 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 14:12:01 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:19
+[12-Jul-2020 14:12:01 UTC] PHP   4. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template-loader.php:106
+[12-Jul-2020 14:12:01 UTC] PHP   5. testValue() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php:59
+[12-Jul-2020 14:12:36 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 49
+[12-Jul-2020 14:12:54 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting variable (T_VARIABLE) or '{' or '$' in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 47
+[12-Jul-2020 14:19:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 44
+[12-Jul-2020 14:19:00 UTC] PHP Stack trace:
+[12-Jul-2020 14:19:00 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 14:19:00 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 14:19:00 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:19
+[12-Jul-2020 14:19:00 UTC] PHP   4. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template-loader.php:106
+[12-Jul-2020 14:19:00 UTC] PHP   5. testValue() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php:56
+[12-Jul-2020 14:19:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 44
+[12-Jul-2020 14:19:49 UTC] PHP Stack trace:
+[12-Jul-2020 14:19:49 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 14:19:49 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 14:19:49 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:19
+[12-Jul-2020 14:19:49 UTC] PHP   4. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template-loader.php:106
+[12-Jul-2020 14:19:49 UTC] PHP   5. testValue() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php:56
+[12-Jul-2020 14:19:57 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 41
+[12-Jul-2020 14:20:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 44
+[12-Jul-2020 14:20:20 UTC] PHP Stack trace:
+[12-Jul-2020 14:20:20 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 14:20:20 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 14:20:20 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:19
+[12-Jul-2020 14:20:20 UTC] PHP   4. include() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-includes\template-loader.php:106
+[12-Jul-2020 14:20:20 UTC] PHP   5. testValue() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php:56
+[12-Jul-2020 14:20:48 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 46
+[12-Jul-2020 14:20:54 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 46
+[12-Jul-2020 14:20:56 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 46
+[12-Jul-2020 15:08:40 UTC] PHP Fatal error:  Cannot redeclare testValue() (previously declared in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:4) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 28
+[12-Jul-2020 15:08:40 UTC] PHP Stack trace:
+[12-Jul-2020 15:08:40 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 15:08:40 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 15:08:40 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:19
+[12-Jul-2020 15:08:45 UTC] PHP Fatal error:  Cannot redeclare testValue() (previously declared in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:4) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 28
+[12-Jul-2020 15:08:45 UTC] PHP Stack trace:
+[12-Jul-2020 15:08:45 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 15:08:45 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 15:08:45 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:19
+[12-Jul-2020 15:08:47 UTC] PHP Fatal error:  Cannot redeclare testValue() (previously declared in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:4) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 28
+[12-Jul-2020 15:08:47 UTC] PHP Stack trace:
+[12-Jul-2020 15:08:47 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 15:08:47 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 15:08:47 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:19
+[12-Jul-2020 15:09:04 UTC] PHP Fatal error:  Cannot redeclare testValue() (previously declared in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php:4) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\front-page.php on line 28
+[12-Jul-2020 15:09:04 UTC] PHP Stack trace:
+[12-Jul-2020 15:09:04 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:0
+[12-Jul-2020 15:09:04 UTC] PHP   2. require() C:\Users\ashima\Local Sites\constructionsite\app\public\index.php:17
+[12-Jul-2020 15:09:04 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\constructionsite\app\public\wp-blog-header.php:19
+[12-Jul-2020 17:24:48 UTC] PHP Parse error:  syntax error, unexpected ''cmb2_admin_init'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 38
+[12-Jul-2020 17:26:48 UTC] PHP Parse error:  syntax error, unexpected ''cmb2_admin_init'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 38
+[12-Jul-2020 17:28:49 UTC] PHP Parse error:  syntax error, unexpected ''cmb2_admin_init'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 38
+[12-Jul-2020 17:55:03 UTC] PHP Parse error:  syntax error, unexpected 'default' (T_DEFAULT) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 62
+[12-Jul-2020 17:55:03 UTC] PHP Parse error:  syntax error, unexpected 'default' (T_DEFAULT) in C:\Users\ashima\Local Sites\constructionsite\app\public\wp-content\themes\construction-site\lib\cmb.php on line 62
