@@ -7,7 +7,7 @@ body{
     /* Font-Family: 'Raleway', Sans-Serif;*/
     font-family: 'Open Sans', Sans-Serif;
     color: #333333;
-    border: 1px solid red;
+    border: 10px solid red;
 }
 img{
     max-width: 100%;
