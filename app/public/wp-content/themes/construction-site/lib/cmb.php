@@ -9,29 +9,21 @@ function dynamic_list_departments(){
         'post_type'=>'department',
     ));
 
-    $departmentTitles = Array();
-    $departmentKeys = Array();
+    $departmentTitles = array();
 
     while ($departmentPost->have_posts()) {
         $departmentPost->the_post();
-        $departmentTitles[] = get_the_title();   
+        $departmentTitles[get_the_ID()] = get_the_title();
     }
-
-    $counter =0;
-
-    foreach($departmentTitles as $key=>$value){
-        $key=$value;
-        $departmentKeys[$key]=$value;
-        $counter++;
-    }
+      
     
-    return $departmentKeys;
+    return $departmentTitles;
     wp_reset_postdata();
 }
 
 
-// ------------------------------------------------
 
+// ------------------------------------------------
 
 add_action( 'cmb2_admin_init', 'cmb2_project_metaboxes' );
 /**
@@ -46,27 +38,7 @@ function cmb2_project_metaboxes() {
 		'context'       => 'normal',
 		'priority'      => 'high',
         'show_names'    => true, // Show field names on the left
-        
     ) );
-
-    // Project Gallery
-    $project_cmb_group_object->add_field( array(
-        'name' => 'Current Project\'s Gallery',
-        'desc' => 'Upload Images for a slider',
-        'id'   => 'current_project_slider',
-        'type' => 'file_list',
-        'preview_size' => array( 100, 100 ), // Default: array( 50, 50 )
-        'query_args' => array( 'type' => 'image' ), // Only images attachment
-        // Optional, override default text strings
-        'text' => array(
-            'add_upload_files_text' => 'Upload Image' // default: "Add or Upload Files"
-            // 'remove_image_text' => 'default', // default: "Remove Image"
-            // 'file_text' => 'default', // default: "File:"
-            // 'file_download_text' => 'default', // default: "Download"
-            // 'remove_text' => 'default', // default: "Remove"
-        ),
-    ) );
-
    
       // Project Location and Date
       $group_project_location_date= $project_cmb_group_object->add_field( array(
@@ -93,13 +65,13 @@ function cmb2_project_metaboxes() {
     $project_cmb_group_object->add_group_field($group_project_location_date,  array(
         'name'    => 'Start Date',
         'id'      => 'project_start_date',
-        'type' => 'text_date_timestamp',
+        'type' => 'text_date'
     ) );
      // Project End Date
     $project_cmb_group_object->add_group_field($group_project_location_date,  array(
         'name'    => 'End Date',
         'id'      => 'project_end_date',
-        'type' => 'text_date_timestamp',
+        'type' => 'text_date',
         'desc'       => 'Leave Blank if its Ongoing'
         
     ) );
@@ -108,14 +80,8 @@ function cmb2_project_metaboxes() {
     $group_select_description_department = $project_cmb_group_object->add_field( array(
         // 'name'       => __( 'Groupable field', 'cmb2' ),
         'desc'       => __( 'CONSULTANT\'S SPECIFIC ROLE', 'cmb2' ),
-        'id'         => 'yourprefix_text_two_meta_field',
+        'id'         => 'department_tasks_images',
         'type'       => 'group',
-        
-        // 'show_on_cb' => 'cmb2_hide_if_no_cats', // function should return a bool value
-        // 'sanitization_cb' => 'my_custom_sanitization', // custom sanitization callback parameter
-        // 'escape_cb'       => 'my_custom_escaping',  // custom escaping callback parameter
-        // 'on_front'        => false, // Optionally designate a field to wp-admin only
-        // 'repeatable'      => true,
         'options' => array(
             'add_button'    => __( 'Add Department', 'cmb2' ),
             'remove_button' => __( 'Remove Department', 'cmb2' )
@@ -126,7 +92,7 @@ function cmb2_project_metaboxes() {
     $project_cmb_group_object->add_group_field($group_select_description_department, array(
         'name'       => __( 'Department', 'cmb2' ),
         'desc'       => __( 'Select Department', 'cmb2' ),
-        'id'         => 'yourprefix_text_three',
+        'id'         => 'chosen_department',
         'type'       => 'select',
         'show_option_none' => true,
         'options'     => dynamic_list_departments()
@@ -136,7 +102,7 @@ function cmb2_project_metaboxes() {
     $project_cmb_group_object->add_group_field($group_select_description_department, array(
         'name'       => __( 'Department\'s Task', 'cmb2' ),
         'desc'       => __( 'List or describe the responsibility of Department', 'cmb2' ),
-        'id'         => 'yourprefix_text_four',
+        'id'         => 'department_tasks',
         'type'       => 'wysiwyg',
         'options'    => array(
             'media_buttons'=>false,
@@ -144,6 +110,21 @@ function cmb2_project_metaboxes() {
             )
         
     ) );
+
+     // Project Gallery
+     $project_cmb_group_object->add_group_field($group_select_description_department, array(
+        'name' => 'Current Department\'s Gallery',
+        'desc' => 'Upload Images for this department',
+        'id'   => 'department_images',
+        'type' => 'file_list',
+        'preview_size' => array( 100, 100 ), // Default: array( 50, 50 )
+        'query_args' => array( 'type' => 'image' ), // Only images attachment
+        // Optional, override default text strings
+        'text' => array(
+            'add_upload_files_text' => 'Upload Image' 
+        ),
+    ) );
+
 
 
   
@@ -155,7 +136,5 @@ function cmb2_project_metaboxes() {
 
 
 }
-
-
 
 ?>
